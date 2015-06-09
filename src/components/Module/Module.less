@@ -1,0 +1,19 @@
+@import '../../styles/bootstrap/variables.less';
+@import '../../styles/bootstrap/mixins.less';
+
+.Module {
+  .box-shadow(0 1px 3px rgba(0,0,0,.25));
+
+  &-body {
+    overflow: auto;
+    padding: @padding-base-vertical @padding-base-horizontal;
+  }
+
+  &-heading {
+    text-align: center;
+
+    > h3 {
+      font-weight: bold;
+    }
+  }
+}

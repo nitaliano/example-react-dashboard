@@ -1,0 +1,17 @@
+@import '../../styles/bootstrap/variables.less';
+@import '../../styles/bootstrap/mixins.less';
+
+.LoginForm {
+  text-align: right;
+
+  &-group {
+    margin-right: @padding-small-horizontal;
+  }
+
+  @media (max-width: @screen-sm-min) {
+    &-signin {
+      float: left;
+      .clearfix();
+    }
+  }
+}

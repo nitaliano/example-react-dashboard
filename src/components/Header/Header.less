@@ -1,0 +1,29 @@
+/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+@import '../../styles/bootstrap/variables.less';
+@import '../../styles/bootstrap/mixins.less';
+
+.Header {
+  padding: @padding-base-vertical 0;
+  background: @brand-primary;
+  .box-shadow(0 1px 3px rgba(0,0,0,.25));
+
+  &-logo {
+    .make-sm-column(3);
+
+    > img {
+      margin-top: @padding-small-vertical;
+      .img-responsive();
+    }
+  }
+
+  &-login-form {
+    .make-sm-column(9);
+  }
+
+  @media (max-width: @screen-sm-min) {
+    &-login-form {
+      padding-top: @padding-large-vertical;
+    }
+  }
+}

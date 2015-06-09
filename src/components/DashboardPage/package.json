@@ -1,0 +1,6 @@
+{
+  "name": "DashboardPage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardPage.js"
+}

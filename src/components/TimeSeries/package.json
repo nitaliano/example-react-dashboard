@@ -1,0 +1,6 @@
+{
+  "name": "TimeSeries",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TimeSeries.js"
+}
