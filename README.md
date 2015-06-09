@@ -16,6 +16,7 @@ I highly recommend that you check that project out if you haven't already!
 │   ├── /constants/             # Constants (action types etc.)
 │   ├── /core/                  # Core components (Flux dispatcher)
 │   ├── /decorators/            # Higher-order React components
+│   ├── /fonts/                 # Twitter bootstrap fonts
 │   ├── /stores/                # Stores contain the application state and logic
 │   ├── /styles/                # Less files and Twitter Bootstrap imports
 │   ├── /templates/             # HTML templates for server-side rendering, emails etc.
